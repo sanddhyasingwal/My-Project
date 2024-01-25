@@ -8,6 +8,7 @@ def detect_double_spaces(input_string):
 user_input = input("Enter a string: ")
 if detect_double_spaces(user_input):
     print("Double spaces detected in the string.")
+    print('hi')
 else:
     print("No double spaces found in the string.")
     print('Hi')
