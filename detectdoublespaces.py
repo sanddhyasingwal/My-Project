@@ -10,7 +10,7 @@ if detect_double_spaces(user_input):
     print("Double spaces detected in the string.")
 else:
     print("No double spaces found in the string.")
-
+    print('Hi')
 def replace_double_spaces(input_string):
     # Replace double spaces with a single space
     result_string = input_string.replace("  ", " ")
